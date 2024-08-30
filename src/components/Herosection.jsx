@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShieldAlt, faCheckCircle, faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter, faFacebookF, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { Link } from 'react-router-dom';
+import Image1 from '../assets/hero.jpeg'
 
 const Herosection = () => {
   return (
@@ -16,7 +18,7 @@ const Herosection = () => {
       </header>
 
       <section style={{ textAlign: "center", padding: "50px 20px", backgroundColor: "#0d0d0d" }}>
-        <img src="header-image.png" alt="Cyber Threat" style={{ width: "100%", maxWidth: "600px", marginBottom: "20px" }} />
+        <img src={Image1} alt="Cyber Threat" style={{ width: "100%", marginBottom: "20px" }} />
         <h1>Welcome to CII Threat Monitor</h1>
         <p>Stay updated with real-time cyber threat information specific to the Indian cyber space.</p>
       </section>
@@ -41,7 +43,7 @@ const Herosection = () => {
 
       <section style={{ textAlign: "center", padding: "20px", backgroundColor: "#1e1e1e" }}>
         <button style={{ padding: "10px 20px", fontSize: "18px", backgroundColor: "#007bff", color: "#ffffff", border: "none", borderRadius: "5px" }}>
-          Access Threat Dashboard
+          <Link to='/landing'>Access Threat Dashboard</Link>
         </button>
       </section>
 
