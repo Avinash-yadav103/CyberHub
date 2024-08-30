@@ -18,7 +18,7 @@ const Nav = () => {
           <nav className="navbar">
       {/* Logo Heading */}
       <div className="navbar-logo">
-        <h1>CyberSafe</h1> {/* Replace "CyberSafe" with your desired logo heading */}
+        <h1>CyberSafe</h1> 
       </div>
 
       {/* Search Bar */}

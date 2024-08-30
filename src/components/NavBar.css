@@ -108,7 +108,7 @@
   background-color: #3498db;
   color: white;
   cursor: pointer;
-  border-radius: 8px; 
+  border-radius:20px; 
   transition: all 0.3s ease; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
@@ -125,4 +125,59 @@
   background-color: #1a6fa5; 
   transform: translateY(0); 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+/* Footer */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  height: 20vh;
+  /* background-color: red; */
+}
+
+.footer-left h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 100%;
+}
+
+.footer-left p{
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.logos_footer{
+  padding: 10px 10px 10px 0;
+  display: flex;
+  /* background-color: black; */
+  gap: 10px;
+}
+
+.ft-up{
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  width: 100%;
+  flex-direction: column;
+  padding-bottom: 3vh;
+}
+
+.ft-up p{
+  padding: 4px 4px 4px 4px;
+}
+
+.ft-down p{
+  padding: 4px 0;
+  /* font-size: 600; */
+}
+
+.ft-down{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 3vh;
+  flex-direction: column;
 }
