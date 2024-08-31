@@ -1,0 +1,131 @@
+/* body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  } */
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    width: 98vw;
+    padding: 25px;
+        
+  }
+
+  /* Optional: Add some padding and spacing between sections */
+  .app > * {
+    margin-bottom: 20px;
+  }
+
+  /* Ensure that the content within the .app component is well-aligned */
+  .app .analysts-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .headerr {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #2e2e2e;
+  }
+
+  .search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 15rem;
+  }
+
+  .user-section img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .incident-overview {
+    padding: 20px;
+      }
+      .incident-overview h1{
+        font-size: 30px;
+      }
+
+  .threat-landscape {
+    padding: 20px;
+      }
+
+  .threat-bars .bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .bar span {
+    width: 50px;
+  }
+
+  .bar-fill {
+    background-color: #4caf50;
+    height: 20px;
+    border-radius: 10px;
+  }
+
+  .analyst-card {
+    background-color: #2e2e2e;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+
+  .analyst-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .analyst-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .analyst-info h3 {
+    margin: 0;
+  }
+
+  .analyst-metrics {
+    margin-top: 10px;
+  }
+
+  .metric {
+    margin-bottom: 10px;
+  }
+
+  .metric span {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .metric-values {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .score-buttons button {
+    background-color: #3e3e3e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+
+  .analyst-feedback {
+    margin-top: 10px;
+    font-style: italic;
+  }

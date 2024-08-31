@@ -8,6 +8,7 @@ import Herosection from './components/Herosection.jsx'
 import Landing from './components/Landing.jsx'
 // import './NavBar.css'
 import ReportIncident from './components/ReportIncident.jsx'
+import Stats from './components/Stat.jsx'
 
 function App() {
 
@@ -21,11 +22,12 @@ function App() {
       // <ReportIncident/> */}
 
       <Routes>
-      <Route path="/" exact element={<Herosection/>} />
-      <Route path="/landing" element={<Landing/>} />
-      <Route path="/report" element={<ReportIncident/>} />
+        <Route path="/" exact element={<Herosection/>} />
+        <Route path="/landing" element={<Landing/>} />
+        <Route path="/report" element={<ReportIncident/>} />
+        <Route path="/stats" element={<Stats/>} />
       </Routes>
-
+        {/* <Stats/> */}
       <Footer/>
 
 

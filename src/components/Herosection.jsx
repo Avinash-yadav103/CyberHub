@@ -13,7 +13,7 @@ const Herosection = () => {
         <div className="logofin" style={{ fontSize: "24px", fontWeight: "bold" }}> <img src={logofin} alt=""  /> <p>CII Threat Monitor</p></div>
         <nav>
           <a href="/" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Home</a>
-          <Link to="/dashboard" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Threat Dashboard</Link>
+          <Link to="/stats" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Threat Stats</Link>
           <Link to="/report" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Report Incident</Link>
         </nav>
       </header>

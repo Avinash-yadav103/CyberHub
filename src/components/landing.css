@@ -163,11 +163,13 @@
   
   .editorial-selections {
     padding: 20px;
+    width: 100%;
   }
   
   .editorial-articles {
     display: flex;
     gap: 20px;
+    width: 100%;
   }
   
   .editorial-article {
@@ -187,6 +189,12 @@
     border-radius: 50%;
     color: #ffffff;
     font-size: 1.5rem;
+  }
+
+  .editorial-article img{
+    width: 100%;
+    /* height: 30px; */
+    /* border-radius: 50%; */
   }
   
   /* .footer {
