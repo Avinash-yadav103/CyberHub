@@ -6,8 +6,12 @@
 } */
 
 .hellocontainer {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 header {
@@ -33,6 +37,7 @@ main {
     background-color: #282828;
     padding: 30px;
     border-radius: 8px;
+    width: 80%;
 }
 
 main h1 {

@@ -13,7 +13,8 @@ const ReportIncident = () => {
         </nav>
       </header>
 
-      <main>
+      <div className="mainmain">
+      <main className='main_report'>
         <h1>Report Cyber Incident</h1>
         <form>
           <div className="form-group">
@@ -44,6 +45,7 @@ const ReportIncident = () => {
           <button type="submit">Submit</button>
         </form>
       </main>
+      </div>
 
       <footer>&copy; 2023 CII Threat Monitor. All rights reserved.</footer>
     </div>

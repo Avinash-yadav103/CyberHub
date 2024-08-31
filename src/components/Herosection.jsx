@@ -3,25 +3,28 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShieldAlt, faCheckCircle, faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter, faFacebookF, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { Link } from 'react-router-dom';
-import Image1 from '../assets/hero.jpeg'
+import Image1 from '../assets/hero.jpg'
+import logofin from '../assets/logofin.png'
 
 const Herosection = () => {
   return (
     <div style={{ backgroundColor: "#1e1e1e", color: "#ffffff", fontFamily: "Arial, sans-serif", minHeight: "100vh" }}>
       <header style={{ padding: "20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <div style={{ fontSize: "24px", fontWeight: "bold" }}>CII Threat Monitor</div>
+        <div className="logofin" style={{ fontSize: "24px", fontWeight: "bold" }}> <img src={logofin} alt=""  /> <p>CII Threat Monitor</p></div>
         <nav>
           <a href="/" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Home</a>
-          <a href="/dashboard" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Threat Dashboard</a>
-          <a href="/report" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Report Incident</a>
+          <Link to="/dashboard" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Threat Dashboard</Link>
+          <Link to="/report" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Report Incident</Link>
         </nav>
       </header>
 
-      <section style={{ textAlign: "center", padding: "50px 20px", backgroundColor: "#0d0d0d" }}>
+      <div className="hero-mid" style={{display:'flex',justifyContent:'center'}}>
+      <section style={{ textAlign: "center", padding: "50px 20px", backgroundColor: "" ,width:'60%'}}>
         <img src={Image1} alt="Cyber Threat" style={{ width: "100%", marginBottom: "20px" }} />
         <h1>Welcome to CII Threat Monitor</h1>
         <p>Stay updated with real-time cyber threat information specific to the Indian cyber space.</p>
       </section>
+      </div>
 
       <section style={{ display: "flex", justifyContent: "space-around", padding: "40px 0", backgroundColor: "#121212" }}>
         <div style={{ textAlign: "center" }}>

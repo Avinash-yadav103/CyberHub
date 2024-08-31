@@ -18,12 +18,15 @@ function App() {
       {/* <Nav2/> */}
       {/* <Herosection/>
       <Landing/>
-      // <ReportIncident/>
-      <Footer/> */}
+      // <ReportIncident/> */}
+
       <Routes>
       <Route path="/" exact element={<Herosection/>} />
       <Route path="/landing" element={<Landing/>} />
+      <Route path="/report" element={<ReportIncident/>} />
       </Routes>
+
+      <Footer/>
 
 
     </>
