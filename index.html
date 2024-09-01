@@ -5,9 +5,31 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+
+    <style>
+      .fsd{
+        position: relative;
+        z-index: 90;
+        align-items: center;
+        height: 100%;
+        background-color: #f0f0f0;
+        color: white;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      
+     <!-- <div class="fsd">
+      Hello
+     </div> -->
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+  <script type="module">
+    import { GoogleGenerativeAI } from "@google/generative-ai";
+    // Fetch your API_KEY
+    const API_KEY = "AIzaSyBKIoZntl1z3-TxVUZeOh-N2mHyIrhfZgM";
+  </script>
+  <script src="module.js"></script>
 </html>

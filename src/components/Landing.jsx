@@ -27,7 +27,7 @@ const LandingPage = () => {
           <button className="get-updates-btn">Get updates</button>
         </div>
         <div className="search-bar">
-          <input type="text" placeholder="Search for cyber threats" />
+          {/* <input type="text" placeholder="Search for cyber threats" /> */}
         </div>
       </header>
 

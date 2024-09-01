@@ -1,0 +1,136 @@
+.search_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.search-filter-container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .search-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-header h2 {
+    margin: 0;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .search-form {
+    margin-top: 20px;
+  }
+  
+  .form-group-search {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .range-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .range-group div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .range-group div:last-child {
+    margin-left: 10px;
+  }
+  
+  .range-group input {
+    width: 100%;
+  }
+  
+  .incident-type-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .incident-type-item {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .incident-type-item:last-child {
+    margin-right: 0;
+  }
+  
+  .incident-type-item i {
+    margin-right: 5px;
+  }
+  
+  .location-group {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .location-group input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .shutdown-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .shutdown-group div {
+    flex: 1;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .reset-button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filter-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

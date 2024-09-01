@@ -3,20 +3,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShieldAlt, faCheckCircle, faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter, faFacebookF, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { Link } from 'react-router-dom';
-import Image1 from '../assets/hero.jpg'
+import Image1 from '../assets/hero_1.png'
 import logofin from '../assets/logofin.png'
 
 const Herosection = () => {
   return (
     <div style={{ backgroundColor: "#1e1e1e", color: "#ffffff", fontFamily: "Arial, sans-serif", minHeight: "100vh" }}>
-      <header style={{ padding: "20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      {/* <header style={{ padding: "20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <div className="logofin" style={{ fontSize: "24px", fontWeight: "bold" }}> <img src={logofin} alt=""  /> <p>CII Threat Monitor</p></div>
         <nav>
           <a href="/" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Home</a>
           <Link to="/stats" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Threat Stats</Link>
           <Link to="/report" style={{ margin: "0 10px", color: "#ffffff", textDecoration: "none" }}>Report Incident</Link>
         </nav>
-      </header>
+      </header> */}
 
       <div className="hero-mid" style={{display:'flex',justifyContent:'center'}}>
       <section style={{ textAlign: "center", padding: "50px 20px", backgroundColor: "" ,width:'60%'}}>
